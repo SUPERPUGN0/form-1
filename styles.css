@@ -1,0 +1,77 @@
+body {
+    background-image: url(images/background.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    background-color: rgba(22, 0, 38, 0.8);
+    color: white;
+    padding: 50px;
+    border-radius: 7px;
+}
+
+#general-info * {
+    display: block;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 7rem;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: orangered;
+    color: white;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select {
+    width: 100%;
+    height: 2rem;
+    font-size: 1.1rem;
+    padding: 0.9;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
